@@ -1,6 +1,0 @@
-app.js
-
-const fs = require('fs'); 
-fs.writeFileSync('example.txt', 'Hello, this is a Node.js File System example.....');
-const data = fs.readFileSync('example.txt', 'utf8');
-console.log("File Content:", data);

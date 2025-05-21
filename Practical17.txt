@@ -1,0 +1,7 @@
+app.js
+console.log("Node.js Application Running...");
+
+// Simulate a long-running application (e.g., a server)
+setInterval(() => {
+  console.log("Still running...");
+}, 5000);
